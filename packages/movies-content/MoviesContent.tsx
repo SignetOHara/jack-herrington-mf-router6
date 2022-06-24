@@ -1,5 +1,5 @@
 import { MovieCard } from "card";
-import { Grid } from "@mantine/core";
+import { Grid, Title } from "@mantine/core";
 
 const movies = [
   {
@@ -46,6 +46,7 @@ const movies = [
 
 export const MoviesContent = () => (
   <>
+    <Title>Movies</Title>
     <Grid
       sx={{
         gap: "1rem",
